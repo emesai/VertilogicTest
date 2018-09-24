@@ -17,7 +17,7 @@
               <h6 class="card-subtitle mb-2 text-muted" style="margin-bottom: 20px !important;">{{$user->username}}</h6>
               <h6 class="card-subtitle mb-2 text-muted"><span class="icon ion-md-mail" style="margin-right: 10px;"></span>{{$user->email}}</h6>
               <h6 class="card-subtitle mb-2 text-muted"><span class="icon ion-md-call" style="margin-right: 10px;"></span>{{$user->phone}}</h6>
-              <h6 class="card-subtitle mb-2 text-muted"><span class="icon ion-md-call" style="margin-right: 10px;"></span>{{$user->website}}</h6>
+              <h6 class="card-subtitle mb-2 text-muted"><span class="icon ion-md-globe" style="margin-right: 10px;"></span>{{$user->website}}</h6>
             </div>
             <div class="company-info">
               <h5 class="card-title" style="margin-bottom: 0px !important">Company</h5>
