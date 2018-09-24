@@ -33,10 +33,11 @@
               {{$user->address->suite}}<br>
               {{$user->address->zipcode}}
             </h6>
-            <div class="col-md-5" id="map">
-              <iframe 
-                width="500" 
-                height="300" 
+            <div style="clear: both;"></div>
+            <div  id="map">
+              <iframe
+                width="600" 
+                height="400" 
                 frameborder="0" 
                 scrolling="no" 
                 marginheight="0" 

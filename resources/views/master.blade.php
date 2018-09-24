@@ -6,7 +6,21 @@
     <title>{{config('app.name')}} - @yield('title')</title>
     <link rel="stylesheet" type="text/css" href="{{url('css/app.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css')}}">
-
+    <style type="text/css">
+      #map{
+          overflow:hidden;
+          padding-bottom:56.25%;
+          position:relative;
+          height:0;
+      }
+      #map iframe{
+          left:0;
+          top:0;
+          height:100%;
+          width:100%;
+          position:absolute;
+      }
+    </style>
     <script>
         option = {
             baseUrl : "{{URL::to('/')}}",
